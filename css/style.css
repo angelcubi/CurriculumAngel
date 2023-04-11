@@ -1,0 +1,128 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: default;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    color: white;
+    text-align: center;
+
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+header ul {
+    padding: 20px;
+    margin:  0px;
+}
+
+header a:hover{
+    background-color: beige;
+    color: black;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: inline-block; 
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+
+p {
+    padding-bottom: 20px;
+}
+
+hr {
+    margin: 0px;
+}
+
+main{
+    padding: 10px;
+    background-color: #010128;
+    border: 5px solid;
+    padding: 3rem;
+    margin-top: 0rem;
+}
+
+.datos {
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+}
+
+.datos, a{
+    text-decoration: none;
+    color: white;
+    padding: 1px;
+}
+
+#mainMisDatos {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#mainMisDatos a:hover {
+    background-color: beige;
+    color: black;
+}
+
+#informacion {
+    font-size:large;
+    line-height: 300%;
+    margin-bottom: 0%;
+    text-align: left;
+    margin-left: 20rem;
+    padding-top: 1rem;
+    display: block;
+}
+
+#fotocv {
+    position: relative;
+    margin-left: 75%;
+    margin-top: -30rem;
+    margin-bottom: 3rem;
+    width: 200px;
+    border-radius: 150px; 
+    position:relative;
+}
+
+footer {
+    background-color: rgb(51, 4, 78);
+    position: relative;
+    margin-top: 5.5rem;
+    text-align: center;
+}
+
+#footer-ul {
+    margin: 0px;
+}
+
+
+
+.nav-links-footer :hover{
+    background-color: beige;
+    color: black;
+}
+
+.nav-links-footer {
+    list-style-type: none;
+    display: inline-block; 
+}
+
+.nav-links-footer {
+    padding: 1rem;
+}
